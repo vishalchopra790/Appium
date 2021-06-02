@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="org.vishalTech.resources.Listeners"/>
+
+    </listeners>
+    <test verbose="2" preserve-order="true" name="D:/Vishal/AppiumFramework">
+        <classes>
+            <class name="org.vishalTech.Ecommerce.TC001">
+                <methods>
+                    <include name="Test001"/>
+                </methods>
+            </class>
+            <class name="org.vishalTech.Ecommerce.TC005">
+                <methods>
+                    <include name="Test005"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
